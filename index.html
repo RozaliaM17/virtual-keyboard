@@ -1,0 +1,100 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title></title>
+  <meta name="author" content="SitePoint">
+
+  <meta property="og:title" content="A Basic HTML5 Template">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.sitepoint.com/a-basic-html5-template/">
+  <meta property="og:description" content="A simple HTML5 Template for new projects.">
+  <meta property="og:image" content="image.png">
+
+  <link rel="stylesheet" href="dist/css/main.css?v=1.0">
+  <script src="https://kit.fontawesome.com/77ef26c315.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <main class="main-container">
+        <h1 class="main-title">Virtual Keyboard</h1>
+        <textarea class="output-container" rows="3" cols="50" placeholder="Write here your message ..."></textarea>
+        <div class="keyboard-container">
+            <div class="first-line-grid keyboard-line-grid keyboard-grid">
+                <button class="symbol-button keyboard-button" id="1">1</button>
+                <button class="symbol-button keyboard-button" id="2">2</button>
+                <button class="symbol-button keyboard-button" id="3">3</button>
+                <button class="symbol-button keyboard-button" id="4">4</button>
+                <button class="symbol-button keyboard-button" id="5">5</button>
+                <button class="symbol-button keyboard-button" id="6">6</button>
+                <button class="symbol-button keyboard-button" id="7">7</button>
+                <button class="symbol-button keyboard-button" id="8">8</button>
+                <button class="symbol-button keyboard-button" id="9">9</button>
+                <button class="symbol-button keyboard-button" id="0">0</button>
+                <button class="function-button keyboard-button backspace-button" id="backspace">
+                    <i class="fa-solid fa-delete-left"></i>
+                </button>
+            </div>
+            <div class="second-line-grid keyboard-line-grid keyboard-grid">
+                <button class="letter-button keyboard-button" id="q">q</button>
+                <button class="letter-button keyboard-button" id="w">w</button>
+                <button class="letter-button keyboard-button" id="e">e</button>
+                <button class="letter-button keyboard-button" id="r">r</button>
+                <button class="letter-button keyboard-button" id="t">t</button>
+                <button class="letter-button keyboard-button" id="y">y</button>
+                <button class="letter-button keyboard-button" id="u">u</button>
+                <button class="letter-button keyboard-button" id="i">i</button>
+                <button class="letter-button keyboard-button" id="o">o</button>
+                <button class="letter-button keyboard-button" id="p">p</button>
+                <button class="symbol-button keyboard-button" id="(">(</button>
+                <button class="symbol-button keyboard-button" id=")">)</button>
+
+
+            </div>
+            <div class="third-line-grid keyboard-line-grid keyboard-grid">
+                <button class="letter-button keyboard-button" id="a">a</button>
+                <button class="letter-button keyboard-button" id="s">s</button>
+                <button class="letter-button keyboard-button" id="d">d</button>
+                <button class="letter-button keyboard-button" id="f">f</button>
+                <button class="letter-button keyboard-button" id="g">g</button>
+                <button class="letter-button keyboard-button" id="h">h</button>
+                <button class="letter-button keyboard-button" id="j">j</button>
+                <button class="letter-button keyboard-button" id="k">k</button>
+                <button class="letter-button keyboard-button" id="l">l</button>
+                <button class="symbol-button keyboard-button" id=";">;</button>
+                <button class="symbol-button keyboard-button" id=":">:</button>
+                <button class="function-button keyboard-button enter-button" id="enter">
+                    <img class="function-button-icon" src="./src/images/to-left.png" alt="arrow to left">
+                </button>
+            </div>
+            <div class="forth-line-grid keyboard-line-grid keyboard-grid">
+                <button class="function-button keyboard-button cap-button" id="caps"><i class="fa-solid fa-arrow-up-from-bracket"></i></button>
+                <button class="letter-button keyboard-button" id="z">z</button>
+                <button class="letter-button keyboard-button" id="x">x</button>
+                <button class="letter-button keyboard-button" id="c">c</button>
+                <button class="letter-button keyboard-button" id="v">v</button>
+                <button class="letter-button keyboard-button" id="b">b</button>
+                <button class="letter-button keyboard-button" id="n">n</button>
+                <button class="letter-button keyboard-button" id="m">m</button>
+                <button class="symbol-button keyboard-button" id=",">,</button>
+                <button class="symbol-button keyboard-button" id=".">.</button>
+                <button class="symbol-button keyboard-button" id="?">?</button>
+            </div>
+            <div class="fifth-line-grid keyboard-line-grid keyboard-grid">
+                <button class="function-button keyboard-button hide-button" id="hide">
+                    <img class="function-button-icon" src="./src/images/down.png" alt="arrow down">
+                </button>
+                <button class="function-button keyboard-button space-button" id="space">
+                    <img class="function-button-icon" src="./src/images/space.png" alt="square bracket">
+                </button>
+            </div>
+        </div>
+    </main>
+
+    <script src="./dist/scripts/scripts.js"></script>
+</body>
+</html>
